@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local configuration and logs
+.env
+logs/
+
+# User data and generated outputs
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/datasets/*
+!data/datasets/.gitkeep
+data/generated_csv/*
+!data/generated_csv/.gitkeep
+data/sample_videos/*
+!data/sample_videos/.gitkeep
+*.sqlite3
+models/saved/*
+!models/saved/.gitkeep
+reports/generated/*
+!reports/generated/.gitkeep
+reports/model_performance/*
+!reports/model_performance/.gitkeep
+reports/charts/*
+!reports/charts/.gitkeep
+
+# Local YOLO weights (obtain or provide a model separately)
+*.pt
